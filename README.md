@@ -28,6 +28,16 @@ int pickup(int su1) {
 }
 ```
 
+### 아이템 삭제 코드 
+```c
+int elimination(int array[],int gogosu1,int savesu2) {
+	if (array[savesu2 - 1] < gogosu1) {
+		return 0;
+	}
+	array[savesu2 - 1] = array[savesu2 - 1] - gogosu1;
+	return array, gogosu1, savesu2;
+}
+```
 ### 게임 화면 
 ![가챠게임 캡처](https://user-images.githubusercontent.com/74585673/147436938-99509afb-66af-4f82-87ae-60bb10ebe5fe.PNG)
 
