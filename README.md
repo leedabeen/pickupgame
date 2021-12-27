@@ -28,3 +28,6 @@ int pickup(int su1) {
 }
 ```
 
+### 게임 화면 
+![가챠게임 캡처](https://user-images.githubusercontent.com/74585673/147436938-99509afb-66af-4f82-87ae-60bb10ebe5fe.PNG)
+
